@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="mainbox">
+
+        <div class="inputbox">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="searchinput" placeholder="Enter city name...">
+            <button class="searchbtn">Search</button>
+        </div>
+
+        <div class="middlebox">
+            <h2 class="cityname">New York us</h2>
+            <h1 class="tempElement">22<sup>&deg;C</sup></h1>
+            <p class="condition">Sunny</p>
+            <img src="suncloud.png" alt="suncloud">
+        </div>
+
+        <div class="downbox">
+            <div class="hum">
+                <i class="fa-solid fa-droplet"></i>
+                <h2>Humidity</h2>
+              <div class="per"><h1 class="humidity">58%</h1></div>  
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <h2>Wind Speed</h2>
+                <div class="km"><h1 class="speed">12 km/h</h1></div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script> 
+</body>
+</html>
